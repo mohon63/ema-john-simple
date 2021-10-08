@@ -1,10 +1,12 @@
 import React from 'react';
+import './NotFound.css'
 
 const NotFound = () => {
     return (
         <div>
-            <h1>404</h1>
-            <h2>Page not found</h2>
+            <div className="err">
+                <img className="w-100 mx-auto" src="https://thumbs.gfycat.com/ImperfectPracticalGoldfish-size_restricted.gif" alt="" />
+            </div>
         </div>
     );
 };

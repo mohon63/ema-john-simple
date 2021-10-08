@@ -1,0 +1,5 @@
+.err{
+    overflow: hidden;
+    min-height: 90vh !important;
+    width: 100%;
+}
